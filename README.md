@@ -96,28 +96,6 @@ Database (`db_game_review`) terdiri dari 5 tabel:
       * `komentar`
       * `tanggal_review`
 
-## Cara Menjalankan
-
-1.  **Siapkan Server**: Pastikan Anda memiliki server web lokal seperti XAMPP atau MAMP yang menjalankan Apache dan MySQL.
-2.  **Database**:
-      * Buka phpMyAdmin (`http://localhost/phpmyadmin`).
-      * Buat database baru dengan nama `game_review_db` (sesuai dengan file `.sql`).
-      * Impor file `TP7/database/db_game_review.sql` ke dalam database tersebut.
-3.  **File Proyek**:
-      * Letakkan folder `TP7` di dalam direktori root server web Anda (misalnya: `C:/xampp/htdocs/`).
-4.  **Konfigurasi Database**:
-      * Buka file `TP7/config/Database.php`.
-      * Pastikan pengaturan `host`, `db`, `user`, dan `pass` sesuai dengan konfigurasi server MySQL Anda.
-    <!-- end list -->
-    ```php
-    private static $host = '127.0.0.1';
-    private static $db   = 'db_game_review'; // Pastikan nama ini sama
-    private static $user = 'root';
-    private static $pass = ''; // Sesuaikan jika MySQL Anda memiliki password
-    ```
-5.  **Jalankan**:
-      * Buka browser Anda dan akses `http://localhost/TP7/`.
-  
 -----
 
 ## Dokumentasi
